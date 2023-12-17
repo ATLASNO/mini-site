@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(236, 71, 71);
+}
+
+.container {
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.heart-gif {
+  width: 200px; /* ajuste la taille selon la taille de ton gif */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.question {
+  font-size: 24px;
+  color: white;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
